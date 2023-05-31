@@ -1,0 +1,30 @@
+section {
+	width: 100%;
+	height: calc(100vh - 60px);
+	margin-top: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 40px;
+	z-index: 100;
+}
+
+.hero-section-intro {
+	text-align: right;
+	width: 30vw;
+}
+
+.hero-section-intro h2 {
+	font-size: 60px;
+	line-height: 62px;
+}
+
+.hero-section-intro p {
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.hero-section-profile-pic img {
+	float: right;
+	width: 30vw;
+}

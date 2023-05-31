@@ -1,18 +1,53 @@
+:root {
+	--portfolio-background-color: #36393E;
+	--default-text-color: #F0E0D0;
+	--header-text-hover-color: #3f87d0;
+}
+
 body {
-	background-color: #36393e;
+	background-color: var(--portfolio-background-color);
+}
+
+h1 {
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 60px;
+	color: var(--default-text-color);
+	font-family: 'Barlow', sans-serif;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 60px;
+	color: var(--default-text-color);
+	font-family: 'Barlow', sans-serif;
+}
+
+p {
+	font-size: 14px;
+	line-height: 18px;
+	color: var(--default-text-color);
+	font-family: 'Barlow', sans-serif;
 }
 
 a {
+	font-size: 14px;
+	line-height: 18px;
+	color: var(--default-text-color);
+	font-family: 'Barlow', sans-serif;
 	cursor: pointer;
 }
 
 /* Main Navbar header */
 .header-main {
+	position: fixed;
+	top: 0;
 	width: 100%;
 	height: 60px;
-	background-color: #FFFFFF;
 	display: flex;
 	justify-content: space-between;
+	z-index: 1000;
 }
 
 /* Main Navbar Logo */
@@ -35,17 +70,12 @@ a {
 
 .header-main-logo h1{
 	padding: 0 20px 0 10px;
-	font-family: 'Barlow', sans-serif;
-	font-size: 25px;
-	font-weight: 600;
-	line-height: 60px;
-	color: #000000;
 	display: block;
 	height: 100%;
 }
 
 .header-main-logo:hover h1{
-	color: #3f87d0;
+	color: var(--header-text-hover-color);
 }
 
 /* Main Navbar Buttons */
@@ -69,11 +99,11 @@ a {
 	font-family: 'Barlow', sans-serif;
 	font-size: 20px;
 	line-height: 60px;
-	color: #000000;
+	color: var(--default-text-color);
 	display: block;
 	height: 100%;
 }
 
 .header-main-nav ul li a:hover{
-	color: #3f87d0;
+	color: var(--header-text-hover-color);
 }
