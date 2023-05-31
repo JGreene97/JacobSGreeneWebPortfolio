@@ -1,3 +1,79 @@
 body {
 	background-color: #36393e;
 }
+
+a {
+	cursor: pointer;
+}
+
+/* Main Navbar header */
+.header-main {
+	width: 100%;
+	height: 60px;
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* Main Navbar Logo */
+.header-main-logo {
+	width: fit-content;
+	height: 100%;
+	margin-left: 60px;
+	display: flex;
+}
+
+.header-main-logo a{
+	display: flex;
+}
+
+.header-main-logo img{
+	padding: 0 10px 0 20px;
+	height: 85%;
+	align-self: center;
+}
+
+.header-main-logo h1{
+	padding: 0 20px 0 10px;
+	font-family: 'Barlow', sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 60px;
+	color: #000000;
+	display: block;
+	height: 100%;
+}
+
+.header-main-logo:hover h1{
+	color: #3f87d0;
+}
+
+/* Main Navbar Buttons */
+.header-main-nav {
+	width: fit-content;
+	height: 100%;
+	margin-right: 60px;
+}
+
+.header-main-nav ul{
+	list-style: none;
+}
+
+.header-main-nav ul li{
+	display: inline;
+	float: left;
+}
+
+.header-main-nav ul li a{
+	padding: 0 20px;
+	font-family: 'Barlow', sans-serif;
+	font-size: 20px;
+	line-height: 60px;
+	color: #000000;
+	display: block;
+	height: 100%;
+}
+
+.header-main-nav ul li a:hover{
+	color: #3f87d0;
+}
