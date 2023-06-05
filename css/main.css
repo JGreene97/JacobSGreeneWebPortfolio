@@ -1,43 +1,72 @@
+/***********************
+*
+*	DEFAULT/ROOT Values
+*
+***********************/
+
 :root {
-	--portfolio-background-color: #36393E;
-	--default-text-color: #F0E0D0;
-	--header-text-hover-color: #3f87d0;
+	/* --site-color-1: #36393E;
+	--site-color-2: #415A77;
+	--site-color-3: #778DA9;
+	--site-color-4: #FBEFF0; */
+
+	--site-color-1: #283044;
+	--site-color-2: #78A1BB;
+	--site-color-2-alpha: #78A1BB33;
+	--site-color-4: #EBF5EE;
+	--site-color-3: #C07251;
+	/* --site-color-3: #BFA89E; */
+}
+
+html{
+	font-size: 62.5%;
 }
 
 body {
-	background-color: var(--portfolio-background-color);
+	background-color: var(--site-color-1);
+}
+
+.wrapper-main {
+	width: 1200px;
+	margin: 0 auto;
 }
 
 h1 {
-	font-size: 25px;
+	font-size: 2.5rem;
 	font-weight: 600;
-	line-height: 60px;
-	color: var(--default-text-color);
+	line-height: 1.5;
+	color: var(--site-color-4);
 	font-family: 'Barlow', sans-serif;
 }
 
 h2 {
-	font-size: 20px;
+	font-size: 2rem;
 	font-weight: 600;
-	line-height: 60px;
-	color: var(--default-text-color);
+	line-height: 1.5;
+	color: var(--site-color-4);
 	font-family: 'Barlow', sans-serif;
 }
 
 p {
-	font-size: 14px;
-	line-height: 18px;
-	color: var(--default-text-color);
+	font-size: 1.4rem;
+	line-height: 1.5;
+	color: var(--site-color-4);
 	font-family: 'Barlow', sans-serif;
 }
 
 a {
-	font-size: 14px;
-	line-height: 18px;
-	color: var(--default-text-color);
+	font-size: 1.4rem;
+	line-height: 1.5;
+	color: var(--site-color-4);
 	font-family: 'Barlow', sans-serif;
 	cursor: pointer;
 }
+
+/***********************
+*
+*	HEADER SECTION
+*
+***********************/
 
 /* Main Navbar header */
 .header-main {
@@ -70,12 +99,13 @@ a {
 
 .header-main-logo h1{
 	padding: 0 20px 0 10px;
+	line-height: 60px;;
 	display: block;
 	height: 100%;
 }
 
 .header-main-logo:hover h1{
-	color: var(--header-text-hover-color);
+	color: var(--site-color-3);
 }
 
 /* Main Navbar Buttons */
@@ -97,13 +127,13 @@ a {
 .header-main-nav ul li a{
 	padding: 0 20px;
 	font-family: 'Barlow', sans-serif;
-	font-size: 20px;
+	font-size: 2rem;
 	line-height: 60px;
-	color: var(--default-text-color);
+	color: var(--site-color-4);
 	display: block;
 	height: 100%;
 }
 
 .header-main-nav ul li a:hover{
-	color: var(--header-text-hover-color);
+	color: var(--site-color-3);
 }

@@ -1,30 +1,57 @@
-section {
+/***********************
+*
+*	HERO/INTRO SECTION
+*
+***********************/
+
+.section-hero {
 	width: 100%;
 	height: calc(100vh - 60px);
 	margin-top: 60px;
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	column-gap: 40px;
+	align-content: center;
 	z-index: 100;
 }
 
-.hero-section-intro {
+.section-hero-flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 40px;
+}
+
+.section-hero-intro {
 	text-align: right;
 	width: 30vw;
 }
 
-.hero-section-intro h2 {
+.section-hero-intro h2 {
 	font-size: 60px;
 	line-height: 62px;
 }
 
-.hero-section-intro p {
+.section-hero-intro p {
 	font-size: 18px;
 	line-height: 22px;
 }
 
-.hero-section-profile-pic img {
+.section-hero-profile-pic img {
 	float: right;
 	width: 30vw;
+	border: 4px solid var(--site-color-3);
+	box-shadow: 0 10px 5px 5px var(--site-color-2-alpha);
+	animation: animate 10s ease-in-out infinite;
+	transition: all 1s ease-in-out;
+}
+
+@keyframes animate {
+	0% {
+		border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+	}
+	50% {
+		border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+	}
+	100% {
+		border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+	}
 }
