@@ -99,13 +99,16 @@ a {
 
 .header-main-logo h1{
 	padding: 0 20px 0 10px;
+	font-size: 3.2rem;
 	line-height: 60px;;
 	display: block;
 	height: 100%;
+	transition: all 0.3s;
 }
 
 .header-main-logo:hover h1{
 	color: var(--site-color-3);
+	transition: all 0.3s;
 }
 
 /* Main Navbar Buttons */
@@ -132,8 +135,10 @@ a {
 	color: var(--site-color-4);
 	display: block;
 	height: 100%;
+	transition: all 0.3s;
 }
 
 .header-main-nav ul li a:hover{
 	color: var(--site-color-3);
+	transition: all 0.3s;
 }
