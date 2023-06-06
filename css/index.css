@@ -56,7 +56,7 @@
 	background-color: var(--site-color-1);
 	z-index: 10;
 	overflow: hidden;
-	transition: border-color 0.3s 0.2s;
+	transition: border-color 0.3s;
 }
 
 .section-hero-resume h3 {
@@ -96,17 +96,19 @@
 
 .section-hero-resume:hover {
 	border-color: var(--site-color-4);
+	transition: border-color 0.3s  0.2s;
 }
 
 .section-hero-social-media {
 	display: inline-flex;
+	margin-right: 30px;
 	column-gap: 15px;
 }
 
 .section-hero-sm-in {
-	width: 25px;
-	height: 25px;
-	background-image: url(../img/linkedin_black.png);
+	width: 45px;
+	height: 45px;
+	background-image: url(../img/linkedin_white.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	transition: all 0.3s;
@@ -118,9 +120,9 @@
 }
 
 .section-hero-sm-gh {
-	width: 25px;
-	height: 25px;
-	background-image: url(../img/github_black.png);
+	width: 45px;
+	height: 45px;
+	background-image: url(../img/github_white.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	transition: all 0.3s;
