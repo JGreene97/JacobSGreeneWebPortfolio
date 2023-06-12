@@ -5,17 +5,11 @@
 ***********************/
 
 :root {
-	/* --site-color-1: #36393E;
-	--site-color-2: #415A77;
-	--site-color-3: #778DA9;
-	--site-color-4: #FBEFF0; */
-
 	--site-color-1: #283044;
 	--site-color-2: #78A1BB;
 	--site-color-2-alpha: #78A1BB33;
 	--site-color-4: #EBF5EE;
 	--site-color-3: #C07251;
-	/* --site-color-3: #BFA89E; */
 }
 
 html{
@@ -24,11 +18,6 @@ html{
 
 body {
 	background-color: var(--site-color-1);
-}
-
-.wrapper-main {
-	width: 1200px;
-	margin: 0 auto;
 }
 
 h1 {
@@ -40,6 +29,14 @@ h1 {
 }
 
 h2 {
+	font-size: 2rem;
+	font-weight: 600;
+	line-height: 1.5;
+	color: var(--site-color-4);
+	font-family: 'Barlow', sans-serif;
+}
+
+h3 {
 	font-size: 2rem;
 	font-weight: 600;
 	line-height: 1.5;
@@ -62,6 +59,11 @@ a {
 	cursor: pointer;
 }
 
+.wrapper-main {
+	width: 1200px;
+	margin: 0 auto;
+}
+
 /***********************
 *
 *	HEADER SECTION
@@ -76,6 +78,7 @@ a {
 	height: 60px;
 	display: flex;
 	justify-content: space-between;
+	background-color: var(--site-color-1);
 	z-index: 1000;
 }
 
