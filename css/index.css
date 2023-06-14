@@ -156,6 +156,11 @@
 	background-color: var(--site-color-2);
 }
 
+.section-about-flex {
+	display: flex;
+	flex-direction: column;
+}
+
 .section-about h2{
 	overflow: hidden;
 	text-align: center;
@@ -558,7 +563,51 @@
 	background-image: url(../img/exit-top-right-blue.png);
 }
 
+/***********************
+*
+*	CONTACT SECTION
+*
+***********************/
+.section-contact{
+	width: 100%;
+	background-color: var(--site-color-2);
+}
 
+.section-contact-flex {
+	display: flex;
+	flex-direction: column;
+}
+
+.section-contact h2{
+	overflow: hidden;
+	text-align: center;
+	padding: 40px 0;
+	font-size: 3rem;
+	line-height: 1.25;
+	color: var(--site-color-1);
+}
+
+.section-contact h2 span{
+	position: relative;
+    display: inline-block;
+}
+
+.section-contact h2 span::before, .section-contact h2 span::after{
+	content: '';
+    position: absolute;
+    top: 50%;
+    border-bottom: 4px solid var(--site-color-3);
+    width: calc(1200px / 2);
+    margin: 0 20px;
+}
+
+.section-contact h2 span::before {
+	right: 100%;
+}
+
+.section-contact h2 span::after {
+	left: 100%;
+}
 
 /***********************
 *
