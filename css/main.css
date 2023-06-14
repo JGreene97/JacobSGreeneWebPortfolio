@@ -63,6 +63,13 @@ a {
 	cursor: pointer;
 }
 
+li {
+	font-size: 1.4rem;
+	line-height: 1.5;
+	color: var(--site-color-4);
+	font-family: 'Barlow', sans-serif;
+}
+
 .wrapper-main {
 	width: 1200px;
 	margin: 0 auto;
