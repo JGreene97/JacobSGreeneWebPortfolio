@@ -12,3 +12,4 @@ This site is currently being built and will be coming soon
 Icons provided by the following Authors from www.flaticon.com
 Pixel Perfect
 Freepik
+Uniconlabs

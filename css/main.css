@@ -12,6 +12,7 @@
 	--site-color-3: #C07251;
 	--site-color-3-alpha: #C0725166;
 	--site-color-4: #EBF5EE;
+	--site-color-4-alpha: #EBF5EE99;
 }
 
 html{
@@ -48,6 +49,14 @@ h3 {
 	font-family: 'Barlow', sans-serif;
 }
 
+h4 {
+	font-size: 1.6rem;
+	font-weight: 600;
+	line-height: 1.5;
+	color: var(--site-color-4);
+	font-family: 'Barlow', sans-serif;
+}
+
 p {
 	font-size: 1.4rem;
 	line-height: 1.5;
@@ -68,6 +77,42 @@ li {
 	line-height: 1.5;
 	color: var(--site-color-4);
 	font-family: 'Barlow', sans-serif;
+}
+
+label {
+	font-size: 1.6rem;
+	line-height: 1.5;
+	color: var(--site-color-4);
+	font-family: 'Barlow', sans-serif;
+}
+
+button {
+	font-size: 2rem;
+	font-weight: 600;
+	line-height: 1.5;
+	color: var(--site-color-4);
+	font-family: 'Barlow', sans-serif;
+}
+
+input,
+textarea{
+	border: 2px solid var(--site-color-1);
+	border-radius: 4px;
+	padding-left: 4px;
+	font-size: 1.4rem;
+	line-height: 1.5;
+	color: var(--site-color-4);
+	font-family: 'Barlow', sans-serif;
+}
+
+input:focus,
+textarea:focus {
+	outline: 2px solid var(--site-color-3);
+}
+
+input::placeholder,
+textarea::placeholder {
+	color: var(--site-color-4-alpha);
 }
 
 .wrapper-main {
