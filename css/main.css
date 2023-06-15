@@ -92,6 +92,7 @@ button {
 	line-height: 1.5;
 	color: var(--site-color-4);
 	font-family: 'Barlow', sans-serif;
+	cursor: pointer;
 }
 
 input,
