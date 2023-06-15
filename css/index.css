@@ -742,18 +742,17 @@
 }
 
 .section-contact-form-name-field,
-.section-contact-form-email-field {
+.section-contact-form-email-field,
+.section-contact-form-subject-field {
 	display: inline-flex;
 	justify-content: space-between;
 	width: 80%;
-}
-
-.section-contact-form-name-field {
 	margin-bottom: 5px;
 }
 
 .section-contact-form-name-field input,
-.section-contact-form-email-field input{
+.section-contact-form-email-field input,
+.section-contact-form-subject-field input {
 	width: 75%
 }
 
