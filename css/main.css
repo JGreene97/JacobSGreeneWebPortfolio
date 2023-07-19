@@ -269,6 +269,16 @@ textarea::placeholder {
 
 /***********************
 *
+*	BURGER MENU SECTION
+*
+***********************/
+
+.burger-menu {
+	display: none;
+}
+
+/***********************
+*
 *	FOOTER SECTION
 *
 ***********************/
@@ -392,6 +402,55 @@ textarea::placeholder {
 		height: fit-content;
 		cursor: pointer;
 		z-index: 1000;
+	}
+
+	/***********************
+	*
+	*	BURGER MENU SECTION
+	*
+	***********************/
+
+	.burger-menu {
+		position: fixed;
+		width: 100%;
+		height: calc(100vh - 60px);
+		background-color: var(--site-color-1);
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		z-index: 800;
+	}
+
+	.burger-menu-nav {
+		width: 100%;
+		height: 100%;
+		padding: 4% 4%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-content: stretch;
+	}
+
+	.burger-menu-nav ul{
+		width: 100%;
+		height: 100%;
+	}
+
+	.burger-menu-nav ul li {
+		width: 100%;
+		height: calc(100% / var(--burger-menu-nav-count));
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-top: 4px solid var(--site-color-3);
+	}
+
+	.burger-menu-nav ul li:nth-last-child(1) {
+		border-bottom: 4px solid var(--site-color-3);
+	}
+
+	.burger-menu-nav ul li a{
+		font-size: 4rem;
 	}
 
 	/***********************

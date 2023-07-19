@@ -37,10 +37,21 @@
 				</ul>
 			</nav>
 			<label class="header-main-burger">
-				<input type="checkbox">
+				<input type="checkbox" class="header-main-burger-checkbox">
 			</label>
 		</div>
 	</header>
+
+	<section class="burger-menu">
+		<nav class="burger-menu-nav">
+			<ul>
+				<li><a onclick="closeMenu()" href="#home">HOME</a></li>
+				<li><a onclick="closeMenu()" href="#about-me">ABOUT ME</a></li>
+				<li><a onclick="closeMenu()" href="#projects">PROJECTS</a></li>
+				<li><a onclick="closeMenu()" href="#contact">CONTACT</a></li>
+			</ul>
+		</nav>
+	</section>
 
 	<!-- Introductory "Hero" Section -->
 	<section id="home" class="section-hero">
@@ -354,5 +365,7 @@
 		</div>
 	</footer>
 </body>
+
+<script src="js/mobile-nav.js"></script>
 
 </html>
